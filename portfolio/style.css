@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #081b29;
+    color: white;
+}
+nav{
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+ nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ nav ul li{
+     margin: 0 30px; 
+    list-style: none; 
+    font-size: large;
+    
+
+} 
+a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+.textside{
+    margin: 50px 0;
+    width: 30%;
+}
+.textside h2{
+    color: #00abf0;
+    padding: 8px 0 20px 0;
+
+}
+.textside .button{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 30px 0;
+}
+.textside .btn{
+    padding: 12px;
+    background-color:#00abf0 ;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.imgside{
+    width: 30%;
+}
+.imgside img{
+    border-radius: 50%;
+    border: 10px solid transparent ; 
+    background:
+    linear-gradient(black,black) padding-box,
+    linear-gradient(#f06, #3cf) border-box;
+}
+.skills{
+    display: inline;
+    justify-content: space-around;
+   
+}
+.skills h1{
+    margin: 20px 100px;
+}
+.skills h3{
+    display: inline-block;
+    margin:  10px 40px;
+}
+.skills ul li {
+    padding: 20px;
+    text-decoration: none;
+}
+.skills img{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20PX;
+    border-radius: 10px;
+}
+.bar{
+    display: block;
+    margin: 10px 40px;
+    background:black;
+    width: 40%;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.bar span{
+    height: 25px;
+    float: left;
+    background: linear-gradient(135deg,rgb(236, 0, 140, 1),#3cf);
+}
+.html{
+    width: 95%;
+}
+.css{
+    width: 80%;
+}
+.js{
+    width: 50%;
+}
+.py{
+    width: 60%;
+}
+hr{
+    margin-top: 40px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+
+}
+.leftcon{
+    width: 30%;
+}
+.leftcon img{
+    float: left;
+    padding: 20px 10px;
+
+}
+.leftcon h1{
+    padding-bottom: 20px;
+}
+.leftcon h3{
+    padding: 25px 10px;
+
+}
+.rightcon{
+    width: 30%;
+
+}
+.rightcon .info{
+    margin-bottom: 50px;
+    padding:15px;
+    width: 90%;
+    background:linear-gradient(rgb(236, 0, 140, 1),#3cf);
+    color: white;
+    border-radius: 5px;
+
+}
+::placeholder{
+    color: white;
+}
+.rightcon button{
+    width: 150px;
+    height: 40px;
+    margin-left: 140px;
+    color: white;
+    font-size: large;
+    background-color: #f06;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+}
